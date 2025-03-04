@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Meu Amor</title>
+    <link rel="stylesheet" href="peco.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+    <!-- Slider -->
+    <div class="slider w-full max-w-lg mx-auto">
+        <div class="slides relative">
+            <div class="slide active">
+                <img src="imgs/img5.jpg" class="w-full object-cover h-64" alt="Imagem 1" />
+            </div>
+            <div class="slide">
+                <img src="imgs/a&s.gif" class="w-full object-cover h-64" alt="Imagem 2" />
+            </div>
+            <div class="slide">
+                <img src="imgs/img4.jpg" class="w-full object-cover h-64" alt="Imagem 3" />
+            </div>
+        </div>
+        <div class="navigation absolute top-1/2 left-0 w-full flex justify-between transform -translate-y-1/2">
+            <button class="prev bg-white rounded-full p-2 shadow" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next bg-white rounded-full p-2 shadow" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </div>
+    <!-- Fim do Slider -->
+    <div class="flex flex-col items-center w-full mt-8">
+        <h1 class="text-2xl font-bold text-pink-600 mb-2 text-center">Meu amor!</h1>
+        <p class="text-lg font-bold">
+            Desde o momento em que nossos olhares se cruzaram, soube que havia encontrado alguém especial. Você trouxe cor e alegria para a minha vida de uma forma que eu nunca imaginei ser possível. A cada dia que passa, meu amor por você só cresce, e sou eternamente grato por ter você ao meu lado. Juntos, criamos um mundo onde o amor é a nossa maior força, e não há nada que eu deseje mais do que passar o resto da minha vida ao seu lado.
+        </p>
+        <div class="flex space-x-2 overflow-x-auto mb-4">
+            <img alt="A couple taking a selfie" class="w-20 h-20 object-cover rounded-lg" src="imgs/img2.jpg"/>
+            
+             <img alt="A couple taking a selfie" class="w-20 h-20 object-cover rounded-lg" src="imgs/imgW.jpg"/>
+             
+              <img alt="A couple taking a selfie" class="w-20 h-20 object-cover rounded-lg" src="imgs/img3.jpg"/>
+    
+        </div>
+        <div class="mt-8 text-center">
+            <p class="text-lg font-bold">
+                Você é o <span class="bg-gray-200">amor</span> da minha vida e a luz que me ilumina 🤍🌞
+            </p>
+        </div>
+        <div class="mt-4 text-center">
+            <p class="text-lg font-bold">
+               Meu vício! <span class="bg-gray-200">“Ém qualquer lugar com você é casa, tudo sem você pra mim não é nada,tu me faz feliz com poucas palavras.”</span> 🏡💓
+            </p>
+        </div>
+        <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-5xl">
+            <div class="border p-4">
+                <h2 class="text-red-600 font-bold">VOCÊ É MEU TUDO</h2>
+                <p class="text-gray-700">
+                    não consigo mais imaginar minha vida sem você, sem o seu sorriso, sem o seu abraço e cheiro.
+                </p>
+                <img alt="A couple hugging" class="w-full h-48 object-cover rounded-lg mt-2" src="imgs/img2.jpg"/>
+            </div>
+            <div class="border p-4">
+                <h2 class="text-red-600 font-bold">EU TE AMO</h2>
+                <p class="text-gray-700">
+                    eu te amo não pelo que você é, mas pelo que sou quando estou ao seu lado.
+                </p>
+                <img alt="A couple hugging" class="w-full h-48 object-cover rounded-lg mt-2" src="imgs/imgW.jpg"/>
+            </div>
+        </div>
+            <div class="border p-4">
+                <h2 class="text-red-600 font-bold">VOCÊ É O MOTIVO</h2>
+                <p class="text-gray-700">
+                    Você é o motivo do meu mais sincero sorriso, o motivo do brilho no meu olhar. Você é a razão pela qual não me faz desistir, me faz querer continuar tentando, sempre. Te ver sorrindo me dá forças para quebrar todos os obstáculos, ultrapassar todas as barreiras, me dá coragem para enfrentar tudo e todos. É por você que luto, é pra você que venço. Se eu vivo, meu bem, é porque tenho você.
+                </p>
+            </div>
+        </div>
+        <div class="mt-8 text-center">
+            <h2 class="text-center">Juntos a:</h2>
+            <p id="time-elapsed" class="text-center mt-2">0 anos, 0 meses, 0 dias, 0 horas, 0 minutos e 0 segundos</span></p><br>
+        </div>
+        <div class="mt-8 text-center">
+            <h2 class="text-center">Música para nós:</h2>
+            <audio controls class="mt-2">
+                <source src="Aliança.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+    </div>
+    <script src="dd.js" type="text/javascript" charset="utf-8"></script>
+    <script src="Amor.js"></script>
+</body>
+</html>
